@@ -1,0 +1,57 @@
+Calculator With Memory
+
+The program will allow user to perform operations like on a calculator.
+The user can stop the process of calculation at any time by typing a special keyword
+like "stop" or "exit". The user can also use special keywords to store something to a memory
+or load if from a memory (for example "mem" and "rec").
+
+The whole program can look like this:
+
+
+Welcome to calculator
+(type "exit" to exit, "mem" to store memory and "rec" to recall memory)
+
+Enter number:
+15
+Enter operator:
++
+Enter number:
+10
+
+The result is: 25
+Enter operator:
+-
+Enter number:
+3
+
+The result is: 22
+Enter operator:
+mem
+
+Current result (22) was stored to memory.
+Enter operator:
+*
+Enter number:
+2
+
+The results is: 44
+Enter operator:
++
+Enter number:
+rec
+
+The result is: 66
+Enter operator:
+exit
+
+Goodbye
+
+
+The program will also be able to save the memory in between different calculations - by saving the number to a file.
+When the program is next started the memory will be loaded from the file
+
+
+
+
+BONUS:
+1. Implement unary operators (operations that do not require second number), for example square, or square root, or log.
