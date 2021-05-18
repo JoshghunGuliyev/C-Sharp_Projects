@@ -461,8 +461,9 @@ namespace Student_Grading
             // LblSubject
             // 
             this.LblSubject.AutoSize = true;
+            this.LblSubject.BackColor = System.Drawing.Color.DarkCyan;
             this.LblSubject.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSubject.ForeColor = System.Drawing.Color.Red;
+            this.LblSubject.ForeColor = System.Drawing.Color.Yellow;
             this.LblSubject.Location = new System.Drawing.Point(605, 9);
             this.LblSubject.Name = "LblSubject";
             this.LblSubject.Size = new System.Drawing.Size(143, 25);
